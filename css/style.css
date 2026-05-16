@@ -1,0 +1,24 @@
+/* Estilo base de la barra */
+.navbar ul {
+    list-style-type: none;
+    background-color: #333;
+    padding: 0;
+    margin: 0;
+    display: flex; /* Alinea los elementos horizontalmente */
+}
+
+.navbar li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 15px 20px;
+    text-decoration: none;
+    transition: background-color 0.3s; /* Suaviza el efecto hover */
+}
+
+/* Efecto Hover */
+.navbar li a:hover {
+    background-color: #555; /* Cambia el color de fondo */
+    color: #fff;
+    border-bottom: 2px solid #007bff; /* Añade borde inferior */
+}
